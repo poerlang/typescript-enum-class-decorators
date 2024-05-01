@@ -5,7 +5,7 @@ https://github.com/microsoft/TypeScript/issues/3279#issuecomment-1260635779
 
 so we need some temporary solution:
 
-![MyEnum.ts](src/MyEnum.ts)
+[MyEnum.ts](src/MyEnum.ts)
 
 
 demo url:
