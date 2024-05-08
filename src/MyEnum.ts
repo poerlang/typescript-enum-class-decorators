@@ -13,6 +13,8 @@ export class Enum extends Number {
 
 export function AddInfo(info: any) {
     return (a_enum_class: any | Enum, key: any) => {
+        if(!a_enum_class.___value_to_key___) a_enum_class.___value_to_key___ = {};
+        if(!a_enum_class.___value_to_info___) a_enum_class.___value_to_info___ = {};
         const value = a_enum_class[key];
         a_enum_class.___value_to_key___[value] = key;
         a_enum_class.___value_to_info___[value] = info;
