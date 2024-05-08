@@ -7,6 +7,18 @@ so we need some temporary solution:
 
 [MyEnum.ts](src/MyEnum.ts)
 
+Note: It is necessary to add the setting in tsconfig.json:
+```
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+
+
+    ... // other setting
+  }
+}
+```
+
 
 demo url:
 
